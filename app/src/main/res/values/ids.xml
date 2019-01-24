@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_main_greeting_txt" type="id" />
+    <item name="activity_main_scores_btn" type="id" />
+    <item name="activity_scores_first_txt" type="id" />
+    <item name="activity_scores_second_txt" type="id" />
+    <item name="activity_scores_third_txt" type="id" />
+    <item name="activity_scores_fourth_txt" type="id" />
+    <item name="activity_scores_fifth_txt" type="id" />
+    <item name="activity_scores_sort_nameplayers_btn" type="id" />
+    <item name="activity_scores_sort_highscores_btn" type="id" />
+    <item name="activity_scores_title_score_txt" type="id" />
+    <item name="activity_scores_title_name_txt" type="id" />
+    <item name="activity_scores_title_txt" type="id" />
+</resources>

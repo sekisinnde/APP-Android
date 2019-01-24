@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.oumar.topquiz.controller.ScoresActivity">
+
+    <TextView
+        android:id="@+id/activity_scores_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="THE 5 BEST PLAYERS"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        tools:context="com.ponroy.florian.topquiz.controller.ScoresActivity">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            tools:context="com.ponroy.florian.topquiz.controller.ScoresActivity">
+
+            <TextView
+                android:id="@+id/activity_scores_title_score_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_green_dark"
+                android:hint="SCORE"/>
+
+            <TextView
+                android:id="@+id/activity_scores_title_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:hint="NAME"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_scores_first_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:hint="no player"/>
+
+        <TextView
+            android:id="@+id/activity_scores_second_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:hint="no player"/>
+
+        <TextView
+            android:id="@+id/activity_scores_third_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:hint="no player"/>
+
+        <TextView
+            android:id="@+id/activity_scores_fourth_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:hint="no player"/>
+
+        <TextView
+            android:id="@+id/activity_scores_fifth_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:hint="no player"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        tools:context="com.ponroy.florian.topquiz.controller.ScoresActivity">
+
+        <Button
+            android:id="@+id/activity_scores_sort_highscores_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Sort By Scores"/>
+
+        <Button
+            android:id="@+id/activity_scores_sort_nameplayers_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="30dp"
+            android:layout_marginTop="20dp"
+            android:text="Sort by Names"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
